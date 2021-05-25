@@ -1,0 +1,6 @@
+<h2>What Can Work Team Do?</h2>
+
+<p id="demo">Our Company Can Teach You how to Make The Marekting Plan.</p>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+<script/>

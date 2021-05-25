@@ -1,0 +1,106 @@
+*{
+	padding: 0;
+	margin:  0;
+	font-family: "Roboto", sans-serif;
+}
+
+body{
+	background-image: url("img 3.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 90vh;
+}
+
+.container{
+	max-width: 1300px;
+}
+
+header{
+	width: auto;
+	overflow: auto;
+	margin-top: 2%
+}
+
+.logo{
+	float: left;
+}
+.logo h2{
+	color: #00b894;
+	margin-left: 20px;
+}
+nav{
+	float: right;
+}
+
+nav ul {
+	width: auto;
+	overflow: auto;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	padding: 5px 15px;
+}
+
+nav ul li:hover{
+	border: 1px solid #fff;
+}
+
+nav ul .active{
+	border: 1px solid #fff;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	
+}
+
+.text{
+	margin-top: 25%;
+}
+
+.text h1{
+	color: #130f40;
+	text-align: center;
+	font-size: 40px;
+	font-family: monospace;
+}
+
+.buttons{
+	margin-left: 35%;
+	margin-top: 20px;
+}
+
+button{
+	width: 150px;
+	height: 40px;
+	border: 1px solid #fff;
+	margin-right: 5px;
+}
+
+button a{
+	text-decoration: none;
+	font-size: 16px;
+	color: #000;
+}
+
+.btn-1{
+	background: #b2bec3;
+	border: 1px solid #b2bec3;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btn-2:hover{
+	background: #b2bec3;
+	border: 1px solid #b2bec3;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.btn-3:hover{
+	 background: #b2bec3;
+	border: 1px solid #b2bec3;
+}
